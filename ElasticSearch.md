@@ -1,5 +1,3 @@
-[TOC]
-
 ## ElasticSerach  教程
 
 ### 一、 ElasticSerach 认识
@@ -6829,27 +6827,4 @@ public enum ResultEnum {
                 .map(e -> JSON.parseObject(e.getSourceAsString(), NbaPlayer.class))
                 .collect(Collectors.toList());
     }
-```
-
-### 九、 走入高可用分布式集群
-
-
-### 十、 深入挖掘ElasticSearch原理
-
-------------------
-####  
-
-- 请求
-```java
-
-```
-
-- 请求体
-```json
-
-```
-
-- 响应
-```json
-
 ```
